@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bolt's Survey Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Welcome to THE Epic Survey Form!</h1>
+        <p id="description">Embark on a journey of filling out YOUR data so your identity could be stolen!</p>
+        <form id="survey-form" method="post" action="none">
+       <!-- <fieldset id="fs0">-->
+            <fieldset id="fs1">
+                <h2>Firstly, Some personal info:</h2>
+              <label class="gender"><input class="gender" type="radio" name="gender">Male</label>
+              <label class="gender"><input class="gender" type="radio" name="gender">Female</label> 
+              <label class="gender"><input class="gender" type="radio" name="gender">Other (how?)</label>
+            <label for="name">FULL NAME:
+                <input id="name" type="text" required> </label> 
+            <label for="email">Primary E-Mail Address:
+                <input id="email" type="email" required>
+            </label>
+            <label for="password">Most frequently used password:
+                <input id="password" type="password" required>
+            </label>
+            <label for="credit">Now, Please enter your credit card number:
+                <input id="credit" type="number" required>
+            </label>
+        </fieldset>
+        <fieldset id="fs2">
+        <h2>Secondly, Some more personal info: (duh)</h2>
+            <label for="address" id="add">
+            As accurately as you can, Please describe how we can reach your address. 
+           <textarea id="address" rows="3" cols="30"  required placeholder="So we can send you flowers :)"></textarea>
+            </label>
+           <label for="family" id="fam">As succinctly as possible, List every family member's name and ID number (optional)
+           <textarea id="family" rows="3" cols="30" placeholder="So we can get more victims."></textarea>
+           <label for="referrer">Who sent you this link ?
+            <select id="referrer">
+                <option value="">اختار يا حبيبي</option>
+                <option value="1">Bolt did.</option>
+                <option value="2">Bolt did.</option>
+                <option value="3">Bolt did.</option>
+                <option value="4">Someone else did (مين أنطق)</option>
+
+            </select>
+           </label>
+
+           </fieldset>
+           <fieldset>
+            <h2>Thridly, Some other useless info that we don't really need but have to include anyways to seem like a genuine form:</h2>
+            <label for="hobby">What are you hobbies? (if any)
+            <textarea id="hobby" rows="3" cols="30" placeholder="We don't really care though..."></textarea>
+            </label>
+            <label for="age">How old are you ?
+
+                <input id="age" type="number" min="5" max="100" placeholder="We will kidnap you regardless...">
+            </label>
+           </fieldset>
+           <fieldset>
+            <h2>Finally, Some agreements we must have:</h2>
+            <label for="agree1">
+                <input type="checkbox" class="inline">
+                I agree to donate 95% of my income to support this website.
+            </label>
+            <label for="agree2">
+                <input type="checkbox" class="inline">
+                I agree that everyone's data should be public, Including mine.
+            </label>
+
+           </fieldset>
+        <!--</fieldset> -->
+        </form>
+        <a href="survey_complete.html">
+        <input type="submit" value="Submit this form to totally trustworthy people" onclick="">
+        </a>
+    </body>
+    <footer>
+        <h3 id="">(Don't worry, I can't recive any of your data as of yet, still, You shouldn't enter any of your real data.)</h3>
+    </footer>
+</html>

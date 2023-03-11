@@ -1,0 +1,97 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    background-color: rgba(123, 100, 100, 0.684);
+    color:rgb(247, 240, 230);
+    font-size: 50px;
+    max-width: 600px;   
+    margin: auto; 
+    margin-top: 20px;
+    padding: 1rem 0;
+    border-radius: 20px;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+    font-family: Fantasy;
+    color: rgb(68, 57, 57);
+}
+h2 {
+    margin-top: -4px;
+    color: rgb(246, 203, 138);
+    text-shadow: 5px;
+}
+form {
+    background-color: rgba(129, 108, 108, 0.585);
+}
+
+#fs0 , form , fi {
+    border-radius: 5px;
+    border-width: 3px;
+    max-width: 800px;
+    margin: auto;
+}
+
+label , input {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label {
+    text-align: center;
+    font-size: larger;
+    color: antiquewhite;
+    margin-bottom: 5px;
+}
+
+#name , #email , #password , #credit , #age {
+    width: 300px;
+    height: 20px;
+}
+textarea {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+}
+
+#family , #address {
+    width: 300px;
+    height: 80px;
+    vertical-align: text-bottom;
+    padding: 10px 0;
+}
+
+select {
+display: block;
+margin: auto;
+margin-top: 10px;
+width: 200px;
+}
+
+.gender {
+    display: inline;
+    margin-right: 5px;
+    padding-left: 102px;
+    margin-left: 10px;
+}
+#gender-text {
+    display: block;
+}
+label > textarea {
+    padding-bottom: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(109, 88, 88, 0.753);
+}
