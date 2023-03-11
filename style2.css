@@ -1,0 +1,35 @@
+body {
+    background-image: url(background_3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    background-color: rgba(123, 100, 100, 0.684);
+    color:rgb(205, 89, 89);
+    font-size: 50px;
+    max-width: 600px;   
+    margin: auto; 
+    margin-top: 20px;
+    padding: 1rem 0;
+    border-radius: 20px;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+    font-family: Fantasy;
+    color: rgb(205, 89, 89);
+}
+h2 {
+    margin-top: -4px;
+    color: rgb(246, 203, 138);
+    text-shadow: 5px;
+}
+img {
+    margin: auto;
+    display: block;
+}
+input {
+    margin: 30px auto;
+    display: block;
+}
