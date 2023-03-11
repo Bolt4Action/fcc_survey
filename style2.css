@@ -28,6 +28,7 @@ h2 {
 img {
     margin: auto;
     display: block;
+    opacity: 50%;
 }
 input {
     margin: 30px auto;
